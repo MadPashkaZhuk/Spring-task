@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ba2567a-dce6-4b37-bc70-6b7c92d84d5a" name="Changes" comment="Initial Commit: Project structure and CRUD op-s" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="297VXbk2WAFWQp5JwA7J6uSim9E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/paska/IdeaProjects/innowise/src/main/java/com/zhukpaul/spring/springboot/innowise&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;ff4b4317db08300dc6be06aec52d416a&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\paska\IdeaProjects\innowise\src\main\java\com\zhukpaul\spring\springboot\innowise" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhukpaul.spring.springboot.innowise.controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="InnowiseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="innowise" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhukpaul.spring.springboot.innowise.InnowiseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ba2567a-dce6-4b37-bc70-6b7c92d84d5a" name="Changes" comment="" />
+      <created>1652464153143</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652464153143</updated>
+      <workItem from="1652464154283" duration="11004000" />
+      <workItem from="1652539057243" duration="1373000" />
+      <workItem from="1652542814251" duration="1087000" />
+      <workItem from="1652543920467" duration="182000" />
+      <workItem from="1652544130872" duration="40000" />
+    </task>
+    <task id="LOCAL-00001" summary="Building simple Spring Boot Restful Web service with Controller,Service,Repository Architecture, Spring Data and PostgreSQL. For now projects have name and description.&#10;All standard CRUD operations are available.">
+      <created>1652474610440</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652474610440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Building simple Spring Boot Restful Web service with Controller,Service,Repository Architecture, Spring Data and PostgreSQL. For now projects have name and description.&#10;All standard CRUD operations are available." />
+    <MESSAGE value="Initial Commit: Project structure and CRUD op-s" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: Project structure and CRUD op-s" />
+  </component>
+</project>
