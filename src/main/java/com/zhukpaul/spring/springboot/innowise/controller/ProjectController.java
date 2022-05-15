@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-public class MainRestController {
+public class ProjectController {
     @Autowired
     private ProjectService projectService;
 
@@ -18,9 +18,9 @@ public class MainRestController {
         return projectService.getAllProjects();
     }
 
-    @GetMapping("/projects/{id}")
-    public Project getProject(@PathVariable int id) {
-        return projectService.getProject(id);
+    @GetMapping("/projects/{proj_id}")
+    public Project getProject(@PathVariable int proj_id) {
+        return projectService.getProject(proj_id);
     }
 
     @PostMapping("/projects")
@@ -35,11 +35,10 @@ public class MainRestController {
         return project;
     }
 
-    @DeleteMapping("/projects/{id}")
-    public String deleteProject(@PathVariable int id) {
-        projectService.deleteProject(id);
-        return "Project with id = " + id + " was deleted";
+    @DeleteMapping("/projects/{proj_id}")
+    public String deleteProject(@PathVariable int proj_id) {
+        projectService.deleteProject(proj_id);
+        return "Project with id = " + proj_id + " was deleted";
     }
-
 
 }

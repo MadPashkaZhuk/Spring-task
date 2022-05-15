@@ -1,11 +1,10 @@
 package com.zhukpaul.spring.springboot.innowise.entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import javax.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "projects")
@@ -27,6 +26,11 @@ public class Project {
     )
     private String description;
 
+
+    @JsonManagedReference
+    @OneToMany(mappedBy = "project",
+            cascade = CascadeType.ALL)
+    private List<Task> tasks;
     public Project() {
     }
 
@@ -58,4 +62,23 @@ public class Project {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public List<Task> getTasks() {
+        return tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
+
+    public void addTask(Task task) {
+        tasks.add(task);
+        task.setProject(this);
+    }
+
+    public void removeTask(Task task) {
+        tasks.remove(task);
+        task.setProject(null);
+    }
+
 }
