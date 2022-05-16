@@ -1,5 +1,6 @@
 package com.zhukpaul.spring.springboot.innowise.service;
 
+import com.zhukpaul.spring.springboot.innowise.exceptions.NoSuchProjectException;
 import com.zhukpaul.spring.springboot.innowise.repository.ProjectRepository;
 import com.zhukpaul.spring.springboot.innowise.entity.Project;
 import org.springframework.beans.factory.annotation.Autowired;

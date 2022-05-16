@@ -1,8 +1,12 @@
 package com.zhukpaul.spring.springboot.innowise.controller;
 
 import com.zhukpaul.spring.springboot.innowise.entity.Project;
+import com.zhukpaul.spring.springboot.innowise.exceptions.NoSuchProjectException;
+import com.zhukpaul.spring.springboot.innowise.exceptions.IncorrectDataHandler;
 import com.zhukpaul.spring.springboot.innowise.service.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,7 +24,11 @@ public class ProjectController {
 
     @GetMapping("/projects/{proj_id}")
     public Project getProject(@PathVariable int proj_id) {
-        return projectService.getProject(proj_id);
+        Project project = projectService.getProject(proj_id);
+        if(project == null) {
+            throw new NoSuchProjectException("There is no project with id = " + proj_id);
+        }
+        return project;
     }
 
     @PostMapping("/projects")
